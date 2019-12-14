@@ -14,7 +14,7 @@
 #include "xenia/kernel/xenumerator.h"
 #include "xenia/xbox.h"
 
-DEFINE_int32(license_mask, 0,
+DEFINE_int32(license_mask, 1,
              "Set license mask for activated content: "
              "0 - disable all licenses / "
              "1 - enable the first license - usually the full version license "
